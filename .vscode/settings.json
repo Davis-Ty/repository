@@ -1,0 +1,6 @@
+{
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "CS4320A1/lib/resources.jar"
+    ]
+}
