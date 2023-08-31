@@ -1,7 +1,7 @@
 package edu.clayton.csit.antlab.pkg1;
 
 
-import edu.csci4320.antlab.pkg3.*;
+import edu.cs4320.antlab.pkg3.*;
 import edu.clayton.csit.antlab.person.*;
 import edu.clayton.csit.antlab.pkg2.*;
 
