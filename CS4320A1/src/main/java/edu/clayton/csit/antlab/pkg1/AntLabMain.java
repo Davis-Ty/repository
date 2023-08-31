@@ -8,6 +8,7 @@ import edu.clayton.csit.antlab.pkg2.*;
 
 /**
  * CSCI 4320 Ant Lab
+ * @author Tyon Davis
  *
  * Prints out a simple message gathered from all of the other classes
  * in the package structure
