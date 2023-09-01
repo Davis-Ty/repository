@@ -56,7 +56,7 @@ public class Person1 {
 	 *         object
 	 */
 	public String toString(String nameRotated) {
-	  return name + calc(nameRotated);
+	  return "\n"+name +"\n"+ calc(nameRotated)+"\n";
 	}
 
 }

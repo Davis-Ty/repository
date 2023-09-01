@@ -58,8 +58,8 @@ import edu.clayton.csit.antlab.pkg2.*;
           + ant22.getMessage() + ant31.getMessage();
 		  //Person1 replace P1 with your name
 		  //and csuLaker1 with your laker id
-		  Person1 p1 = new Person1("P1");
-		  toPrint += p1.toString("csuLaker1");
+		  Person1 p1 = new Person1("Tyon");
+		  toPrint += p1.toString("Tyon");
 		  //Person2 replace P2 with your name
 		  //and csuLaker with your laker id
 		  Person2 p2 = new Person2("P2");
