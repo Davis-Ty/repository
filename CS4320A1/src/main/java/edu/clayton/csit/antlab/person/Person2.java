@@ -1,5 +1,6 @@
 package edu.clayton.csit.antlab.person;
-
+import java.util.Arrays;
+import java.util.*;
 /**
  *  A simple class for person 2
  *  returns their name and a
@@ -11,14 +12,16 @@ package edu.clayton.csit.antlab.person;
 public class Person2 {
     /** Holds the persons real name */
     private String name;
-	 	/**
+
+	/**
 	 * The constructor, takes in the persons
 	 * name
 	 * @param pname the person's real name
 	 */
-	 public Person2(String pname) {
-	   name = pname;
-	 }
+	public Person2(String pname) {
+		name = pname;
+	}
+
 	/**
 	 * This method should take the string
 	 * input and return its characters in
@@ -30,18 +33,28 @@ public class Person2 {
 	 * @return the modified string
 	 */
 	private String calc(String input) {
-	  //Person 2 put your implementation here
-	  return null;
+		//Person 2 put your implementation here
+
+		List<String> chars = Arrays.asList(input.split(""));
+		Collections.shuffle(chars);
+		StringBuilder results = new StringBuilder();
+		for(String ch: chars){
+			results.append(ch);
+
+		}
+
+		return String.valueOf(results);
 	}
+
 	/**
 	 * Return a string rep of this object
 	 * that varies with an input string
 	 *
 	 * @param input the varying string
-	 * @return the string representing the 
+	 * @return the string representing the
 	 *         object
 	 */
 	public String toString(String input) {
-	  return name + calc(input);
+		return name+ "\n" + calc(input)+"\n";
 	}
 }
