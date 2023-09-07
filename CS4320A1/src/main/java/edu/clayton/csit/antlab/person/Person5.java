@@ -32,7 +32,7 @@ public class Person5 {
 	private String calc(String name) {
 		
 		//if string has 3 or more characters 
-		if (name.length()>2){
+		if (name.length()>2||name.isEmpty()){
 
 		// set first 2 chars of string as char1 & char2
 			char char1= name.charAt(0);
