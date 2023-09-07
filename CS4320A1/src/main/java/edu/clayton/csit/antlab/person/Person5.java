@@ -30,19 +30,13 @@ public class Person5 {
 	 * @return the modified string
 	 */
 	private String calc(String name) {
-		
+		String revName;
+
 		//if string has 3 or more characters 
-		if (name.length()>2||name.isEmpty()){
 
-			for(int i=0; i<2;i++){
-				for(int j = 0; j<name.length()-1;j++){
-					int x=i+1;
-
-					name=name.replace(name.charAt(j), name.charAt(x));
-				}
-			}
-			return name;
-		}return name;
+			revName=name.substring(2, name.length())+name.substring(0,2);
+						
+		return revName;
 	  
 	}
 	
