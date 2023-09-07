@@ -43,6 +43,30 @@ public class Person3 {
 	 */
 	private String calc(String input) {
 	  //Person 3 put your implementation here
+	  public class StringReversal {
+		public static String reverseString(String input) {
+			// check if the input string is null or empty
+			if (input == null || input.isEmpty()) {
+				return input;
+			}
+
+			// Create a StringBuilder to store the reversed string
+			StringBuilder reveresed = new StringBuilder();
+			// Iterate through the characters of the input tring in reverse order
+			for (int i = input.length() -1; i >= 0; i--) {
+				reveresed.append(input.charAt(i));
+			}
+			// Convert the StringBuilder to a string and return it
+			return reversed.toString();
+		}
+		public static void main(String[] args) {
+			String input = "gtg123b";
+			String reversed = reverseString(input);
+			System.out.println(reversed); // This will print "b321gtg"
+		}
+	  }
+
 	  return null;
 	}
 }
+
