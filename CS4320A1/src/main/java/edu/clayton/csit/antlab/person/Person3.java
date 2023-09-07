@@ -28,9 +28,7 @@ public class Person3 {
      * @return the string representing the
      *         object
      */
-    public String toString(String input) {
-      return name + calc(input);
-    }
+
    
     /**
      * This method should take the string
@@ -43,12 +41,14 @@ public class Person3 {
      */
     private String calc(String input) {
       //Person 3 put your implementation here
-      public class StringReversal {
-        public static String reverseString(String input) {
+
+      //no need to make a class for this
+      //public class StringReversal {
+      //public static String reverseString(String input) {
             // check if the input string is null or empty
             if (input == null || input.isEmpty()) {
                 return input;
-            }
+            }else{
 
             // Create a StringBuilder to store the reversed string
             StringBuilder reveresed = new StringBuilder();
@@ -57,15 +57,20 @@ public class Person3 {
                 reveresed.append(input.charAt(i));
             }
             // Convert the StringBuilder to a string and return it
-            return reversed.toString();
-        }
-        public static void main(String[] args) {
-            String input = "gtg123b";
-            String reversed = reverseString(input);
-            System.out.println(reversed); // This will print "b321gtg"
-        }
+            return reveresed.toString();
+          }
+        //we dont need a driver
+      //  public static void main(String[] args) {
+        //    String input = "gtg123b";
+          //  String reversed = reverseString(input);
+           // System.out.println(reversed); // This will print "b321gtg"
+        //}
       }
 
-      return null;
+    //This is the output 
+  public String toString(String input) {
+
+      
+      return name + calc(input);
     }
 }
