@@ -66,8 +66,8 @@ import edu.clayton.csit.antlab.pkg2.*;
 		  toPrint += p2.toString("csuLaker2");
 		  //Person3 replace P3 with your name
 		  //and csuLaker3 with your laker id
-		  Person3 p3 = new Person3("P3");
-		  toPrint += p3.toString("csuLaker3");
+		  Person3 p3 = new Person3("Cam");
+		  toPrint += p3.toString("900627144");
                   //Person4 replace P4 with your name
                   //and csuLaker4 with your laker id
                   Person4 p4 = new Person4("P4");
