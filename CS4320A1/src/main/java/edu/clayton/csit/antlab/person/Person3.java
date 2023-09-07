@@ -46,7 +46,7 @@ public class Person3 {
       //public class StringReversal {
       //public static String reverseString(String input) {
             // check if the input string is null or empty
-            if (input == null || input.isEmpty()) {
+            if (name.length()<2 || input.isEmpty()) {
                 return input;
             }else{
 
