@@ -29,9 +29,21 @@ public class Person5 {
 	 * @param input the string to be modified
 	 * @return the modified string
 	 */
-	private String calc(String input) {
-	  //Person 5 put your implementation here
-	  return null;
+	private String calc(String name) {
+		
+		//if string has 3 or more characters 
+		if (name.length()>2||name.isEmpty()){
+
+			for(int i=0; i<2;i++){
+				for(int j = 0; j<name.length()-1;j++){
+					int x=i+1;
+
+					name=name.replace(name.charAt(j), name.charAt(x));
+				}
+			}
+			return name;
+		}return name;
+	  
 	}
 	
 	/**
@@ -42,8 +54,8 @@ public class Person5 {
 	 * @return the string representing the 
 	 *         object
 	 */
-	public String toString(String input) {
-	  return name + calc(input);
+	public String toString(String n) {
+	  return name + calc(n);
 	}
 
 }

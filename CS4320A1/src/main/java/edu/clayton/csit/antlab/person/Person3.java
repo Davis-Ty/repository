@@ -9,6 +9,7 @@ package edu.clayton.csit.antlab.person;;
  */
 public class Person3 {
    /** Holds the persons real name */  
+
     private String name;
    
     /**
@@ -46,7 +47,7 @@ public class Person3 {
       //public class StringReversal {
       //public static String reverseString(String input) {
             // check if the input string is null or empty
-            if (input == null || input.isEmpty()) {
+            if (name.length()<2 || input.isEmpty()) {
                 return input;
             }else{
 
@@ -73,4 +74,3 @@ public class Person3 {
       
       return name + calc(input);
     }
-}
