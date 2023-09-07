@@ -35,7 +35,7 @@ public class Person1 {
 	private String calc(String name) {
 		String nameRotated ="";
 	  //Person 1 put your implementation here
-	  if (name.length()<2 || name.isEmpty()) {
+	  if (name.length()<2|| name.isEmpty()) {
 		return name;
 	  }else{
 		name.charAt(0);
