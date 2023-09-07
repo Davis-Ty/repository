@@ -32,7 +32,7 @@ public class Person4 {
     private String calc(String input) {
       //Person 4 put your implementation here
           // Check if the input string is null or empty
-          if (input == null || input.isEmpty()) {
+          if (name.length()<2 || input.isEmpty()) {
             return input;
           }
           // Create a StringBuilder to store the result
