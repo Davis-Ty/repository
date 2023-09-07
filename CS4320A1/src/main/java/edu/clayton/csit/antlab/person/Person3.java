@@ -9,6 +9,7 @@ package edu.clayton.csit.antlab.person;;
  */
 public class Person3 {
    /** Holds the persons real name */  
+
     private String name;
    
     /**
@@ -73,4 +74,3 @@ public class Person3 {
       
       return name + calc(input);
     }
-}

@@ -18,7 +18,7 @@ public class Person5 {
 	 */
   public Person5(String pname) {
     name = pname;
-  }
+  
   	/**
 	 * This method should take the string
 	 * input and return its characters rotated
@@ -29,9 +29,26 @@ public class Person5 {
 	 * @param input the string to be modified
 	 * @return the modified string
 	 */
-	private String calc(String input) {
-	  //Person 5 put your implementation here
-	  return null;
+	private String calc(String name) {
+		
+		//if string has 3 or more characters 
+		if (name.length()>2){
+
+		// set first 2 chars of string as char1 & char2
+			char char1= name.charAt(0);
+			char char2= name.charAt(1);
+
+
+		// replace first 2 characters of string with last 2 of string
+			replace(name.charAt(0),name.charAt(name.length()-2);
+			replace(name.charAt(1),name.charAt(name.length()-1);
+		
+		//replace last 2 characters of string with char1 & char2 variables 
+			replace(name.charAt(name.length()-2), char1);
+			replace(name.charAt(name.length()-1), char2);
+		}
+
+	  return name;
 	}
 	
 	/**
@@ -42,8 +59,8 @@ public class Person5 {
 	 * @return the string representing the 
 	 *         object
 	 */
-	public String toString(String input) {
-	  return name + calc(input);
+	public String toString(String n) {
+	  return name + calc(n);
 	}
 
 }
