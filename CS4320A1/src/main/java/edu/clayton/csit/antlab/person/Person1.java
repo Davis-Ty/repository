@@ -35,6 +35,9 @@ public class Person1 {
 	private String calc(String name) {
 		String nameRotated ="";
 	  //Person 1 put your implementation here
+	  if (name =="" || name.isEmpty()) {
+		return name;
+	  }else{
 		name.charAt(0);
 		for (int i=2; i<name.length(); i++){
 			nameRotated=nameRotated+name.charAt(i);
@@ -45,7 +48,7 @@ public class Person1 {
 			nameRotated=nameRotated+name.charAt(i);									
 		}
 	  return nameRotated;
-	}
+	}}
 	
 	/**
 	 * Return a string rep of this object
