@@ -31,8 +31,6 @@ public class Person4 {
      */
     private String calc(String input) {
       //Person 4 put your implementation here
-      public class IncrementStringCharacters {
-        public static String incrementCharacters(String input) {
           // Check if the input string is null or empty
           if (input == null || input.isEmpty()) {
             return input;
@@ -42,7 +40,7 @@ public class Person4 {
 
           //Iterate through the characters of the input string
           for (int i = 0; i < input.length(); i++) {
-            char currentChar = input.charAT(i);
+            char currentChar = input.charAt(i);
             // Check the charcter
             if (( currentChar >= 'a' && currentChar < 'z') || (currentChar >= 'A' && currentChar < 'Z')) {
               result.append((char) (currentChar + 1 ));
@@ -59,15 +57,16 @@ public class Person4 {
             // Convert the StringBuilder to a string and return it
             return result.toString();
 
-          }
-          public static void main(String[] args) {
-            String input = "abc123";
-            String result = incrementCharacters(input);
-            System.out.println(result); // This will print "bcd234"
-          }
-        }
+          
+          // No need for main 
+
+          // public static void main(String[] args) {
+          //   String input = "abc123";
+          //   String result = incrementCharacters(input);
+          //   System.out.println(result); // This will print "bcd234"
+          // }
+        
       
-      return null;
     }
     
     /**
